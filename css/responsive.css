@@ -1,0 +1,216 @@
+@media (min-width:320px) and (max-width:575.99px) {
+
+    /* ==========nav part start=========== */
+    .navbar-light .navbar-toggler {
+        margin-top: 20px;
+    }
+
+    nav img {
+        margin-top: 20px;
+    }
+
+    nav ul {
+        background-color: black;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    nav ul li {
+        padding: 10px 0;
+    }
+
+    nav ul li::after {
+        width: 0;
+    }
+
+    nav ul li a {
+        transition: 0;
+    }
+
+    nav ul li a:hover {
+        color: #000 !important;
+        background-color: #fff;
+    }
+
+    nav ul li ul li {
+        display: block;
+    }
+
+    nav ul li ul {
+        text-align: center !important;
+    }
+
+    nav ul li ul li {
+        padding: 5px 0;
+    }
+
+    nav ul li ul li a:hover {
+        color: #fff !important;
+        background-color: #000 !important;
+    }
+
+    /* ==========nav part end============= */
+    /* ==========banner part start======== */
+    #banner-part .b-text {
+        margin-top: 50px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    #banner-part .b-text p {
+        font-size: 20px;
+    }
+
+    #banner-part .b-text h1 {
+        font-size: 54px;
+        line-height: 70px;
+    }
+
+    #banner-part .b-text a {
+        padding: 16px 40px;
+    }
+
+    #banner-part .banner-bg::before {
+        border-right: 0;
+        border-top: 0;
+    }
+
+    #banner-part .b-img {
+        display: none;
+    }
+
+    /* ==========banner part end========== */
+    /* ==========service part start======= */
+    #service-part .box {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* ==========service part end========= */
+    /* ==========about part start========= */
+    #about-part .abt-bg {
+        padding: 30px 0;
+    }
+
+    #about-part .abt-img {
+        display: none;
+    }
+
+    #about-part .abt-title {
+        padding-top: 0;
+        text-align: center;
+    }
+
+    #about-part .abt-title h3 {
+        font-size: 33px;
+    }
+
+    #about-part .abt-title p {
+        font-size: 16px;
+    }
+
+    #about-part .abt-details .item {
+        margin: 0;
+        display: flex;
+        justify-content: space-evenly;
+        width: 280px;
+    }
+
+    #about-part .abt-details .item i {
+        line-height: 100px;
+        margin-right: 25px;
+        margin-left: 10px;
+    }
+
+    /* ==========about part end=========== */
+    /* ==========main feature part start== */
+    #main-feature {
+        padding: 20px 0;
+    }
+
+    .title-section h3 {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+
+    .title-section p {
+        font-size: 14px;
+        width: auto;
+        line-height: 20px;
+    }
+
+    #main-feature .feature-details {
+        padding: 50px 0 20px;
+    }
+
+    #main-feature .shape {
+        display: none;
+    }
+
+    #main-feature .item {
+        margin-bottom: 0px;
+        text-align: -moz-center;
+    }
+
+    #main-feature .item i {
+        display: none;
+    }
+
+    #main-feature .item p {
+        font-size: 15px;
+    }
+
+    #main-feature .left-one {
+        margin-left: 0;
+    }
+
+    #main-feature .left-two {
+        margin-left: 0;
+    }
+
+    #main-feature .left-three {
+        margin-left: 0;
+    }
+
+    #main-feature .right-one {
+        margin-left: 0px;
+    }
+
+    #main-feature .right-two {
+        margin-left: 0px;
+    }
+
+    #main-feature .right-three {
+        margin-left: 0px;
+    }
+
+    /* ==========main feature part end==== */
+    /* ==========other feature part start= */
+    #other-feature .ftr-bg {
+        padding: 30px 0;
+    }
+
+    /* ==========other feature part end=== */
+    /* ==========video part start========= */
+    #video-part {
+        padding: 25px 0 40px;
+    }
+
+    #video-part .video a {
+        top: 42%;
+        width: 30px;
+        height: 30px;
+    }
+
+    #video-part .video a::after {
+        border-top: 6px solid transparent;
+        border-bottom: 6px solid transparent;
+        border-left: 11px solid #fff;
+    }
+
+    /* ==========video part end=========== */
+    /* ==========screenshot part start==== */
+    
+    /* ==========screenshot end=========== */
+
+}
